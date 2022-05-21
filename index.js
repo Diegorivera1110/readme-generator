@@ -114,6 +114,31 @@ const questions = [
         type: "input",
         name: "tests",
         message: "Enter some tests for using your code. (Optional)"
+    },
+    {
+        type: "list",
+        name: "license",
+        message: "If you would like to select a license, please select one of the following.",
+        choices: [ 
+        "Apache 2.0 License",
+        "Boost Software License 1.0", 
+        "BSD 3-Clause License", 
+        "BSD 2-Clause License", 
+        "CC0", 
+        "Attribution 4.0 International", 
+        "Attribution-ShareAlike 4.0 International", 
+        "Eclipse Public License 1.0", 
+        "GNU GPL v3", 
+        "The Hippocratic License 3.0", 
+        "IBM Public License Version 1.0", 
+        "The MIT License", 
+        "Mozilla",  
+        "The Perl License",  
+        "The Artistic License 2.0",  
+        "SIL Open Font License 1.1", 
+        "The Unlicense", 
+        "The Do What the F*** You Want to Public License", 
+        "Zlib"] 
     }
 
 

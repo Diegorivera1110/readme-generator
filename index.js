@@ -18,6 +18,11 @@ const questions = [
     },
     {
         type: "input",
+        name: "githubLink",
+        message: "What is the link to your GitHub?",
+    },
+    {
+        type: "input",
         name: "email",
         message: "What is your email?",
     },
@@ -25,7 +30,18 @@ const questions = [
         type: "input",
         name: "description",
         message: "What's the description of your project?"
+    },
+    {
+        type: "input",
+        name: "installation",
+        message: "What are the steps to installing your project?"
+    },
+    {
+        type: "input",
+        name: "usage",
+        message: "What is your project used for?"
     }
+
 ];
 
 // TODO: Create a function to write README file

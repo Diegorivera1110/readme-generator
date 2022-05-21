@@ -10,36 +10,105 @@ const questions = [
         type: "input",
         name: "title",
         message: "What is the title of your project?",
+        validate: projectTitle => {
+            if (projectTitle) {
+              return true;
+            } else {
+              console.log('Please enter your Project Title.');
+              return false;
+            }
+          }
     }, 
     {
         type: "input",
         name: "githubUsername",
         message: "What is your GitHub username?",
+        validate: githubUsernameInput => {
+            if (githubUsernameInput) {
+              return true;
+            } else {
+              console.log('Please enter your GitHub Username.');
+              return false;
+            }
+          }
     },
     {
         type: "input",
         name: "githubLink",
         message: "What is the link to your GitHub?",
+        validate: githubLinkInput => {
+            if (githubLinkInput) {
+              return true;
+            } else {
+              console.log('Please enter your GitHub profile link.');
+              return false;
+            }
+          }
     },
     {
         type: "input",
         name: "email",
         message: "What is your email?",
+        validate: emailInput => {
+            if (emailInput) {
+              return true;
+            } else {
+              console.log('Please enter your email.');
+              return false;
+            }
+          }
     },
     {
         type: "input",
         name: "description",
-        message: "What's the description of your project?"
+        message: "What's the description of your project?",
+        validate: descriptionInput => {
+            if (descriptionInput) {
+              return true;
+            } else {
+              console.log('Please enter your project description.');
+              return false;
+            }
+          }
     },
     {
         type: "input",
         name: "installation",
-        message: "What are the steps to installing your project?"
+        message: "What are the steps to installing your project?",
+        validate: installationInput => {
+            if (installationInput) {
+              return true;
+            } else {
+              console.log('Please enter installation steps.');
+              return false;
+            }
+          }
     },
     {
         type: "input",
         name: "usage",
-        message: "What is your project used for?"
+        message: "What is your project used for?",
+        validate: usageInput => {
+            if (usageInput) {
+              return true;
+            } else {
+              console.log('Please explain what your project is used for.');
+              return false;
+            }
+          }
+    },
+    {
+        type: "input",
+        name: "credits",
+        message: "Who is everyone that contributed?",
+        validate: creditsInput => {
+            if (creditsInput) {
+              return true;
+            } else {
+              console.log('Please enter who helped develop this project.');
+              return false;
+            }
+          }
     }
 
 ];

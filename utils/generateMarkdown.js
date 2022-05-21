@@ -29,11 +29,17 @@ function generateMarkdown(data) {
 
   ## Usage
   ${data.usage}
+
+  ## Credits
+  ${data.credits}
+
+  ## License
+
   
   # Questions
 
   ## GitHub: 
-  ${data.githubUsername},
+  Account Name: ${data.githubUsername}<br /> Link: 
   ${data.githubLink}
 
   ## Email Address: 

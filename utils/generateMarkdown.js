@@ -22,6 +22,7 @@ function generateMarkdown(data) {
   - [Usage](#usage)
   - [Credits](#credits)
   - [License](#license)
+  - [Tests](#tests)
   - [Questions](#questions)
 
   ## Installation
@@ -35,6 +36,9 @@ function generateMarkdown(data) {
 
   ## License
 
+
+  ## Tests
+  ${data.tests}
   
   # Questions
 

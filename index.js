@@ -109,7 +109,13 @@ const questions = [
               return false;
             }
           }
+    },
+    {
+        type: "input",
+        name: "tests",
+        message: "Enter some tests for using your code. (Optional)"
     }
+
 
 ];
 

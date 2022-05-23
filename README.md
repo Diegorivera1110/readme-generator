@@ -9,6 +9,7 @@
   - [Credits](#credits)
   - [License](#license)
   - [Tests](#tests)
+  - [Video](#video)
   - [Questions](#questions)
 
   ## Installation
@@ -21,11 +22,16 @@
   Diego Rivera
 
   ## License
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)<br />
-  To read more on the license, [Mozilla](https://opensource.org/licenses/MPL-2.0)
+  [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)<br />
+  To read more on the license, [The Unlicense](http://unlicense.org/)
 
   ## Tests
-  Run `node index.js` into the terminal to begin the generator, assuming node.js is installed
+   Run `node index.js` into the terminal to begin the generator, assuming node.js is installed
+
+  ## Video
+  https://drive.google.com/file/d/1OD8zll2v_zMp-gd-VF4SewwChci4Dts5/view  <br />
+  ![QRCode](./sample-video/qr-code%20(1).png)
+
   
   # Questions
 
